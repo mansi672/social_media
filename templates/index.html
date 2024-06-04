@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Scheduler</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Social Media Scheduler</h1>
+        <form id="postForm">
+            <label for="caption">Caption:</label>
+            <textarea id="caption" name="caption" required></textarea>
+
+            <label for="image">Select Image:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+
+            <label for="scheduleTime">Schedule Time:</label>
+            <input type="datetime-local" id="scheduleTime" name="scheduleTime" required>
+
+            <label for="platforms">Select Platforms:</label>
+            <div id="platforms">
+                <input type="checkbox" id="instagram" name="platforms" value="instagram">
+                <label for="instagram">Instagram</label>
+
+                <input type="checkbox" id="facebook" name="platforms" value="facebook">
+                <label for="facebook">Facebook</label>
+
+                <input type="checkbox" id="linkedin" name="platforms" value="linkedin">
+                <label for="linkedin">LinkedIn</label>
+
+                <input type="checkbox" id="twitter" name="platforms" value="twitter">
+                <label for="twitter">Twitter</label>
+
+                <input type="checkbox" id="pinterest" name="platforms" value="pinterest">
+                <label for="pinterest">Pinterest</label>
+            </div>
+
+            <button type="submit">Schedule Post</button>
+        </form>
+    </div>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>

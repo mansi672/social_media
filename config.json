@@ -1,0 +1,22 @@
+{
+    "instagram": {
+        "username": "",
+        "password": ""
+    },
+    "facebook": {
+        "email": "your_facebook_email",
+        "password": "your_facebook_password"
+    },    
+    "linkedin": {
+        "username": "",
+        "password": ""
+    },
+    "twitter": {
+        "username": "your_twitter_username",
+        "password": "your_twitter_password"
+    },
+    "pinterest": {
+        "username": "your_pinterest_username",
+        "password": "your_pinterest_password"
+    }
+}
